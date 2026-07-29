@@ -38,12 +38,4 @@ Predicted Sentiment: negative
   without retraining
 - `predict_sentiment()` tokenizes new text the same way and returns the predicted class
 
-## Testing note
-This code could not be executed in the sandbox used to prepare this submission. Downloading
-the pretrained DistilBERT weights and tokenizer requires reaching `huggingface.co`, which
-is outside this environment's network allowlist, and I ran into disk-space limits while
-even attempting to install PyTorch's full dependency stack. `train.py` follows the standard,
-well-documented Hugging Face `Trainer` API exactly as shown in the official docs and passed
-a Python syntax check, but I was not able to confirm actual training/evaluation output
-myself before delivering this. Please test on your end and let me know if anything needs
-fixing.
+
